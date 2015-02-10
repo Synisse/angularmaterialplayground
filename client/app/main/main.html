@@ -1,0 +1,31 @@
+
+
+<md-toolbar layout="row">
+      <button ng-click="toggleSidenav('left')" hide-gt-sm class="menuBtn">
+        <span class="visuallyhidden">Menu</span>
+      </button>
+      <h1>Hello World</h1>
+    </md-toolbar>
+    <div layout="row" flex>
+        <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$media('gt-sm')">
+
+        </md-sidenav>
+        <div layout="column" flex id="content">
+            <md-content layout="column" flex class="md-padding">
+              <!-- <h2>SWAG</h2> -->
+                <!-- <md-card>
+                <img src="http://lorempixel.com/output/technics-q-c-400-400-6.jpg" alt="Washed Out">
+                <md-card-content>
+                  <h2>Paracosm</h2>
+                  <p>
+                    The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+                    two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+                  </p>
+                </md-card-content>
+              </md-card> -->
+              <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center">
+                <span>.md-whiteframe-z1</span>
+              </md-whiteframe>
+            </md-content>
+        </div>
+    </div>
